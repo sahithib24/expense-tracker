@@ -1,6 +1,6 @@
 # MERN expense-tracker
 
-An Expense Tracker is a digital tool (app, software, or spreadsheet) designed to help individuals and businesses monitor, categorize, and analyze their spending. It provides insights into financial habits, assists in budgeting, and ensures better money management.
+An Expense Tracker is a digital tool designed to help individuals and businesses monitor, categorize, and analyze their spending. It provides insights into financial habits, assists in budgeting, and ensures better money management.
 
 A full-stack expense management application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). Features JWT authentication, data visualization, and PDF export capabilities.
 
@@ -22,7 +22,7 @@ A full-stack expense management application built with the MERN stack (MongoDB, 
 ## 📦 Installation
 
 ### Prerequisites
-- Node.js (v16+)
+- Node.js (v22.15)
 - MongoDB Atlas account or local MongoDB instance
 
 ### Backend Setup
