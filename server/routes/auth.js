@@ -24,7 +24,10 @@ router.post('/signup', async (req, res) => {
       { expiresIn: '1h' }
     );
 
-    res.status(201).json({ token });
+    res.status(201).json({ 
+      token,
+      userId: user._id  // Include the ObjectId in response
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'Server error' });
@@ -51,7 +54,10 @@ router.post('/login', async (req, res) => {
       { expiresIn: '1h' }
     );
 
-    res.json({ token });
+    res.json({ 
+      token,
+      userId: user._id  // Include the ObjectId in response
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'Server error' });
